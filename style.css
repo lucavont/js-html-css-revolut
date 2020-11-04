@@ -13,10 +13,26 @@ nav>div>a {
     text-decoration: none;
 }
 
+.personal,
+.business,
+.features,
+.plans,
+.about-us,
+.help {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .logo>img {
     width: 60px;
 }
 
-.left-nav {
-    justify-items: self-start;
+.plans {
+    position: relative;
+}
+
+.plans-ul {
+    position: absolute;
+    transform: translate(-50%);
+    display: none;
 }
