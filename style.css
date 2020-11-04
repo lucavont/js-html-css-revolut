@@ -27,12 +27,22 @@ nav>div>a {
     width: 60px;
 }
 
-.plans {
+.features,
+.plans,
+.about-us,
+.help {
     position: relative;
 }
 
-.plans-ul {
+.features-ul,
+.plans-ul,
+.about-us-ul,
+.help-ul {
     position: absolute;
     transform: translate(-50%);
     display: none;
+}
+
+.active {
+    display: block;
 }

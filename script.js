@@ -1,12 +1,8 @@
 $(document).ready(function() {
-    $('.plans').click(function() {
-        $('.plans-ul').show('slow')
-        $('.plans').addClass('active');
+    $('.has-dropdown').click(function() {
+        $(this).children('.dropdown').toggleClass('active');
 
 
     })
-    $('.plans.active').click(function() {
-        $('.plans-ul').hide('slow')
-        $('.plans').removeClass('active');
-    })
+
 })
