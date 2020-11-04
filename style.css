@@ -39,10 +39,16 @@ nav>div>a {
 .about-us-ul,
 .help-ul {
     position: absolute;
-    transform: translate(-50%);
     display: none;
+    transform: translate(-90%);
+    margin-top: 20px;
 }
 
 .active {
-    display: block;
+    display: inline-block;
+}
+
+.ul-wrapper {
+    transform: translate(50%);
+    display: flex;
 }
